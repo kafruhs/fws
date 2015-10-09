@@ -1,0 +1,8 @@
+img.logo {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 100px;
+    float: left;
+    box-shadow: 5px 5px #343434;
+}

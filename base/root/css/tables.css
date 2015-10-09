@@ -1,0 +1,75 @@
+tr.ui-widget-content td {
+    padding: 3px !important;
+}
+
+table.offerTable {
+    background-color: white;
+    border-radius: 5px;
+}
+
+table.offerTable td {
+    vertical-align: middle !important;
+    padding: 3px;
+    margin: 3px;
+}
+
+table.offerTable td.orderAmount {
+    text-align: right;
+}
+
+table.offerTable th {
+    padding: 3px;
+    font-weight: bold;
+    font-size: 10pt;
+    border-bottom: 1px solid #787878;
+    text-align: center;
+}
+
+table#orderTable td {
+    padding: 3px;
+}
+
+table#orderTable td:first-child {
+    text-align: left;
+}
+
+table#orderTable th {
+    padding: 3px;
+    font-weight: bold;
+    color: #787878;
+}
+
+table#orderTable td input{
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+table.search {
+    background-color: #efefef;
+    box-shadow: 2px 2px #454545;
+    border-radius: 5px;
+}
+table.search th {
+    padding: 3px 10px;
+    background: linear-gradient(to bottom, #1a606b, #26919c);
+    color: white;
+    font-weight: bold;
+}
+
+table.search th:first-child {
+    border-top-left-radius: 5px;
+}
+
+table.search th:last-child {
+    border-top-right-radius: 5px;
+}
+
+table.search td {
+    padding: 3px 10px;
+}
+
+div.tableOperations {
+    font-size: 9pt;
+}

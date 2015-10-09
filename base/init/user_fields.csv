@@ -1,0 +1,24 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+user;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;
+user;LK;ID;numeric;Y;11;system;100;;;
+user;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;
+user;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+user;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+user;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+user;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+user;lastLogin;letzter Login;datetime;N;40;everyone;100;;;
+user;loginTries;Anmeldeversuche;numeric;N;11;system;100;0;;
+user;disabled;geperrt;alphanumeric;N;11;adminOnly;100;;;
+user;ip;IP;alphanumeric;N;40;system;100;;;
+user;sessionid;SessionID;alphanumeric;N;40;system;100;;;
+user;userid;Kennung;alphanumeric;Y;30;everyone;100;;;
+user;password;Passwort;password;Y;40;currentUser;100;;;
+user;showPrivateData;private Daten anzeigen;alphanumeric;N;11;everyone;100;N;;
+user;firstName;Vorname;alphanumeric;Y;100;showIfShowPrivateDataIsTrue;100;;;
+user;lastName;Nachname;alphanumeric;Y;100;showIfShowPrivateDataIsTrue;100;;;
+user;email;Email;alphanumeric;Y;200;showIfShowPrivateDataIsTrue;100;;;
+user;homepage;Homepage;alphanumeric;N;200;everyone;100;;;
+user;city;Stadt;alphanumeric;N;200;showIfShowPrivateDataIsTrue;100;;;
+user;postalCode;PLZ;numeric;N;5;showIfShowPrivateDataIsTrue;100;;;
+user;street;Straße;alphanumeric;N;200;showIfShowPrivateDataIsTrue;100;;;
+user;groups;Gruppen;MnConnection;N;1200;adminOnly;100;;ConnUserGroup;name

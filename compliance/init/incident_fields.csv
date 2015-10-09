@@ -1,0 +1,11 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength
+incident;PK;Primärer Schlüssel;numeric;Y;11;system;150
+incident;LK;ID;numeric;Y;11;system;150
+incident;histtop;historischer Stand;alphanumeric;Y;2;system;100
+incident;editTime;letzte Bearbeitung;datetime;Y;40;everyone;100
+incident;editor;letzter Bearbeiter;Lk;Y;11;everyone;100
+incident;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;everyone;100
+incident;firstEditor;Erfasser;Lk;Y;11;everyone;100
+incident;title;Titel;alphanumeric;Y;400;everyone;200
+incident;description;Beschreibung;text;Y;2000;everyone;200
+incident;priority;Priorität;numeric;Y;1;everyone;100

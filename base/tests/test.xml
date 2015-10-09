@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="phpunit" tests="5" assertions="8" failures="0" errors="0" time="0.029001">
+    <testsuite name="base_database_statement_test_ShowColTest" file="E:\angapo\modules\base\tests\phpunit\php\database\statement\ShowColTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.013000">
+      <testcase name="toStringTest" class="base_database_statement_test_ShowColTest" file="E:\angapo\modules\base\tests\phpunit\php\database\statement\ShowColTest.php" line="17" assertions="1" time="0.013000"/>
+    </testsuite>
+    <testsuite name="base_database_term_IntTest" file="E:\angapo\modules\base\tests\phpunit\php\database\term\IntTest.php" tests="4" assertions="7" failures="0" errors="0" time="0.016001">
+      <testsuite name="base_database_term_IntTest::toStringTest" tests="4" assertions="7" failures="0" errors="0" time="0.016001">
+        <testcase name="toStringTest with data set #0" assertions="1" time="0.004000"/>
+        <testcase name="toStringTest with data set #1" assertions="2" time="0.006000"/>
+        <testcase name="toStringTest with data set #2" assertions="2" time="0.003001"/>
+        <testcase name="toStringTest with data set #3" assertions="2" time="0.003000"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

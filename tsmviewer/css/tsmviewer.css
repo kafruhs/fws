@@ -1,0 +1,8 @@
+ul li.serverList {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li.serverList li {
+    font-weight: normal;
+}

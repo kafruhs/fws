@@ -1,0 +1,12 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+group;PK;Primärer Schlüssel;numeric;Y;11;system;50;;;
+group;LK;ID;numeric;Y;11;system;50;;;
+group;histtop;historischer Stand;alphanumeric;Y;2;system;50;Y;;
+group;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+group;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+group;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+group;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+group;identifier;tech. Name;alphanumeric;Y;400;everyone;100;;;
+group;name;Name;alphanumeric;Y;400;everyone;100;;;
+group;description;Beschreibung;alphanumeric;Y;400;everyone;100;;;
+group;permissions;Rechte;MnConnection;N;1200;adminOnly;150;;ConnGroupRight;name

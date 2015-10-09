@@ -1,0 +1,10 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+news;PK;Primärer Schlüssel;numeric;Y;11;system;50;;;
+news;LK;ID;numeric;Y;11;system;50;;;
+news;histtop;historischer Stand;alphanumeric;Y;2;system;50;Y;;
+news;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+news;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+news;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+news;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+news;title;Titel;alphanumeric;Y;400;everyone;100;;;
+news;content;Nachricht;alphanumeric;Y;4000;everyone;100;;;

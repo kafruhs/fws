@@ -1,0 +1,10 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+tsmcollocgroup;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;
+tsmcollocgroup;LK;ID;key;Y;11;system;100;;;
+tsmcollocgroup;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;
+tsmcollocgroup;editTime;letzte Bearbeitung;datetime;Y;40;everyone;100;;;
+tsmcollocgroup;editor;letzter Bearbeiter;lk;Y;11;everyone;100;;user;userid
+tsmcollocgroup;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;everyone;100;;;
+tsmcollocgroup;firstEditor;Erfasser;lk;Y;11;everyone;100;;User;userid
+tsmcollocgroup;name;Name;alphanumeric;Y;200;everyone;150;;;
+tsmcollocgroup;FK_tsmserver;TSMServer;lk;Y;4;everyone;150;;;

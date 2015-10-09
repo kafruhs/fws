@@ -1,0 +1,17 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+medicament;PK;Primärer Schlüssel;numeric;Y;11;system;150;;;
+medicament;LK;ID;numeric;Y;11;system;150;;;
+medicament;histtop;historischer Stand;alphanumeric;Y;2;system;100;;;
+medicament;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+medicament;editor;letzter Bearbeiter;Lk;Y;11;system;100;;user;userid
+medicament;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+medicament;firstEditor;Erfasser;Lk;Y;11;system;100;;user;userid
+medicament;name;Artikel;alphanumeric;Y;400;everyone;200;;;
+medicament;FK_vendor;Hersteller;Lk;Y;11;everyone;200;;vendor;name
+medicament;pzn;PZN;numeric;Y;5;everyone;100;;;
+medicament;price;AEK;currency;Y;10;everyone;100;;;
+medicament;mwst;Mehrwertsteuer;percent;Y;10;everyone;100;;;
+medicament;amount;Menge;numeric;Y;11;everyone;100;;;
+medicament;unit;Einheit;alphanumeric;Y;10;everyone;100;;;
+medicament;dosage;Darreichungsform;alphanumeric;Y;10;everyone;100;;;
+medicament;type;RX/Non-RX;alphanumeric;Y;10;everyone;100;;;

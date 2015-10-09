@@ -1,0 +1,13 @@
+table.medOffer input{
+
+}
+
+h3 {
+    text-shadow: 2px 2px #8fa62c;
+}
+
+div.hint {
+    position: absolute;
+    z-index: -4;
+
+}

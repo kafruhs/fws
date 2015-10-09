@@ -1,0 +1,72 @@
+/* LeftSideNavigation */
+
+#naviList {
+    border-radius: 5px;
+    color: #232323;
+    width: 150px;
+    padding: 0px;
+    margin: 5px;
+}
+
+li.naviStep {
+    list-style: none;
+    background-color: #bcbcbc;
+    padding: 3px;
+    margin: 0px 3px 3px 3px;
+    border-radius: 3px;
+    width: 140px;
+}
+
+li.naviStep a {
+    text-decoration: none;
+    color: #760000;
+}
+
+li.naviStep a:hover {
+    text-decoration: underline;
+    color: #767676;
+}
+
+li.naviStep a.finished {
+    color: darkgreen;
+}
+
+li.naviStep a.edit {
+    color: #b89707;
+}
+
+/* TopNavigation */
+
+.naviListTop {
+    color: #232323;
+    width: 150px;
+    display: inline-block;
+}
+
+li.naviStepTop {
+    float: left;
+    list-style-type: none;
+    margin-right: 5px;
+    padding: 5px 10px 0 10px;
+    border: 1px solid #545454;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-color: transparent;
+    background-color: #c5dc2c;
+}
+
+li.naviStepTop:hover {
+    background-color: #02369c;
+    border-color: #c5dc2c;
+    border-bottom-color: transparent;
+}
+
+li.naviStepTop:hover a {
+    color: #c5dc2c;
+}
+
+li.naviStepTop a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #02369c;
+}

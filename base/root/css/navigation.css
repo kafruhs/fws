@@ -1,0 +1,81 @@
+
+.naviListTop, .naviEntries {
+    color: #232323;
+    /*width: 150px;*/
+    display: inline-block;
+    margin: 0;
+    padding:0;
+}
+
+div.naviEntry {
+    background-color: white;
+    display: none;
+    border: 1px solid #676767;
+    border-top: 0px solid #676767;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 100;
+
+}
+
+li.naviCategory {
+    float: left;
+    list-style-type: none;
+    margin-right: 5px;
+    padding: 5px 10px 0 10px;
+    border: 1px solid #545454;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-color: transparent;
+    background-color: #c5dc2c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li.naviCategory_hover {
+    float: left;
+    list-style-type: none;
+    margin-right: 5px;
+    padding: 5px 10px 0 10px;
+    border: 1px solid #545454;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-color: transparent;
+    border-color: #c5dc2c;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #02369c;
+    border-bottom-color: transparent;
+    color: #c5dc2c;
+}
+
+li.naviCategory a{
+    text-decoration: none;
+}
+
+li.naviEntry {
+    list-style-type: none;
+    padding: 3px 10px 3px 10px;
+    background-color: #c5dc2c;
+    text-decoration: none;
+    font-weight: bold;
+    color: #02369c;
+
+}
+
+li.naviEntry:hover {
+    background-color: #02369c;
+    border-color: #c5dc2c;
+    border-bottom-color: transparent;
+    color: #c5dc2c;
+}
+
+li.naviEntry:hover a {
+    color: #c5dc2c;
+}
+
+li.naviEntry a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #02369c;
+}

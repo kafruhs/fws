@@ -1,0 +1,11 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+tsmserver;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;
+tsmserver;LK;ID;key;Y;11;system;100;;;
+tsmserver;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;
+tsmserver;editTime;letzte Bearbeitung;datetime;Y;40;everyone;100;;;
+tsmserver;editor;letzter Bearbeiter;lk;Y;11;everyone;100;;User;userid
+tsmserver;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;everyone;100;;;
+tsmserver;firstEditor;Erfasser;lk;Y;11;everyone;100;;User;userid
+tsmserver;name;Name;alphanumeric;Y;200;everyone;150;;;
+tsmserver;dns;DNS;alphanumeric;Y;200;everyone;150;;;
+tsmserver;port;Port;numeric;Y;4;everyone;150;;;

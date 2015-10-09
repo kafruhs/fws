@@ -1,0 +1,9 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+permission;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;
+permission;LK;ID;numeric;Y;11;system;100;;;
+permission;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;
+permission;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+permission;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+permission;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+permission;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+permission;name;Name;alphanumeric;Y;400;everyone;100;;;

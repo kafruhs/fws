@@ -1,0 +1,11 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+file;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;
+file;LK;ID;numeric;Y;11;system;100;;;
+file;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;
+file;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+file;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+file;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+file;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+file;name;Name;alphanumeric;Y;400;everyone;100;;;
+file;link;Pfad;alphanumeric;Y;4000;everyone;200;;;
+file;description;Beschreibung;alphanumeric;Y;400;everyone;200;;;

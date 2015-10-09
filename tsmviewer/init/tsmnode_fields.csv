@@ -1,0 +1,24 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+tsmnode;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;
+tsmnode;LK;ID;key;Y;11;system;100;;;
+tsmnode;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;
+tsmnode;editTime;letzte Bearbeitung;datetime;Y;40;everyone;100;;;
+tsmnode;editor;letzter Bearbeiter;lk;Y;11;everyone;100;;User;userid
+tsmnode;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;everyone;100;;;
+tsmnode;firstEditor;Erfasser;lk;Y;11;everyone;100;;User;userid
+tsmnode;name;Name;alphanumeric;Y;200;everyone;150;;;
+tsmnode;tcpAddress;TCP/IP;alphanumeric;N;200;everyone;150;;;
+tsmnode;tcpName;TCP-Name;alphanumeric;N;200;everyone;150;;;
+tsmnode;regTime;Registrierdatum;datetime;Y;200;everyone;150;;;
+tsmnode;regAdmin;Angelegt von;alphanumeric;Y;200;everyone;150;;;
+tsmnode;FK_collocgroup;Collocationgroup;lk;N;200;everyone;150;;TSMCollocgroup;name
+tsmnode;FK_domain;Domain;lk;Y;200;everyone;150;;TSMDomain;name
+tsmnode;lastAccessTime;Letzter Zugriff;datetime;N;200;everyone;150;;;
+tsmnode;lastCommMeth;Muss noch geändert werden;alphanumeric;N;200;everyone;150;;;
+tsmnode;lastCommWait;Common Wait;numeric;N;200;everyone;150;;;
+tsmnode;lastDuration;Letzte Dauer;numeric;N;200;everyone;150;;;
+tsmnode;lastIdleWait;Letzter Idle Wait;numeric;N;200;everyone;150;;;
+tsmnode;lastMediaWait;Letzter Media Wait;numeric;N;200;everyone;150;;;
+tsmnode;lastReceived;Zuletzt empfangen;numeric;N;200;everyone;150;;;
+tsmnode;lastSent;Zuletzt gesendet;numeric;N;200;everyone;150;;;
+tsmnode;FK_tsmserver;TSMServer;lk;Y;4;everyone;150;;TSMServer;name

@@ -1,0 +1,14 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+medorder;PK;Primärer Schlüssel;numeric;Y;11;system;150;;;
+medorder;LK;ID;numeric;Y;11;system;150;;;
+medorder;histtop;historischer Stand;alphanumeric;Y;2;system;100;;;
+medorder;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+medorder;editor;letzter Bearbeiter;Lk;Y;11;system;100;;user;userid
+medorder;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+medorder;firstEditor;Erfasser;Lk;Y;11;system;100;;user;userid
+medorder;amount;Menge;numeric;Y;11;everyone;100;;;
+medorder;sellerId;Verkäufer;LK;Y;11;everyone;100;;User;userid
+medorder;price;Preis/Stück;currency;Y;11;everyone;100;;;
+medorder;pzn;PZN;numeric;Y;7;everyone;100;;;
+medorder;name;Artikelname;alphanumeric;Y;400;everyone;100;;;
+medorder;FK_medoffer;zug. Angebot;Lk;Y;3;everyone;100;;;

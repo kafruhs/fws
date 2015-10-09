@@ -1,0 +1,124 @@
+div.pageStructure {
+}
+
+div.header {
+    background-color:           #02369c;
+    background-image:           url(../images/logo.png), linear-gradient(to bottom, #02265d, #02369c);
+    background-repeat:          no-repeat;
+}
+
+div.footer {
+    background: linear-gradient(to bottom, #02369c, #02265d);
+}
+
+table.offerTable th,table.search th {
+    background: linear-gradient(to bottom, #02265d, #02369c);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table.offerTable th:first-child,table.search th:first-child {
+    border-top-left-radius: 5px
+}
+
+table.offerTable th:last-child,table.search th:last-child {
+    border-top-right-radius: 5px
+}
+
+table.offerTable tr.oddRow td,table.search tr.oddRow td {
+    background-color: rgba(197, 220, 44, 0.28)
+}
+
+div.tableOperations {
+    padding: 5px;
+    background: linear-gradient(to bottom, #02265d, #02369c);
+    border: 1px solid #787878;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 8pt;
+}
+
+.ui-spinner {
+    z-index: 0;
+}
+
+div.tableOperations #pager {
+    font-size: 8pt;
+}
+
+div.tableOperations div#sort {
+    display: inline-block;
+    color: white;
+    width: 300px;
+}
+
+div.tableOperations div.numberOfData {
+    display: inline-block;
+    float: right;
+    color: white;
+}
+
+div#order {
+    border: 1px solid #787878;
+    z-index: 10;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    right: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+div#orderContent {
+    font-size: 8pt;
+    display: none;
+    text-align: right;
+}
+
+div#orderNoContent{
+
+}
+
+div#totalAmount {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    margin: 3px 0 3px 0;
+    padding: 3px 0 3px 0;
+    border-top: 1px solid #787878;
+}
+
+p#orderHeadline {
+    font-weight: bold;
+    font-size: 12pt;
+    border-bottom: 1px solid #787878;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 7px;
+}
+
+.warning {
+    color: #565656;
+    font-size: 7pt;
+    margin: 3px 0 0 0;
+}
+
+.numeric, .currency {
+    text-align: right;
+}
+
+input.readonly, select.readonly {
+    background-color: rgba(197, 220, 44, 0.28)
+}
+
+a.submitLink {
+    background-color: rgba(197, 220, 44, 0.28)
+}
+
+table.offerTable div.inputelement {
+    background-color: transparent;
+    border: 0px;
+}

@@ -1,0 +1,115 @@
+table.kategorie {
+    font-size: 9pt;
+    border: #760000 solid 1px;
+    border-collapse: collapse;
+    width: 900px;
+    margin-right: 50px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table.kategorie thead {
+    text-align: center;
+    background-color: #9a0909;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+table.kategorie thead td{
+    background-image: url(../images/thead.jpg);
+    background-repeat:repeat-x;
+    padding: 3px;
+    text-align: left;
+}
+
+table.kategorie tr td{
+    padding: 5px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+table.forum {
+    font-size: 9pt;
+    border: #760000 solid 1px;
+    border-collapse: collapse;
+    width: 900px;
+    margin-right: 50px;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table.forum thead {
+    text-align: center;
+    background-color: #9a0909;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+table.forum thead td{
+    background-image: url(../images/thead.jpg);
+    background-repeat:repeat-x;
+    padding: 3px;
+    text-align: center;
+}
+
+table.forum tr td{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+div.forum {
+    text-align: right;
+    margin-right: 75px;
+}
+
+table.beitrag {
+    width: 900px;
+    font-size: 9pt;
+    border: #760000 solid 1px;
+    border-collapse: collapse;
+    width: 900px;    
+}
+
+table.beitrag thead td{
+    
+    background-image: url(../images/thead.jpg);
+    background-repeat: repeat-x;
+    color: white;
+    height: 30px;
+}
+table.beitrag tr td {
+    background-color: #FFFFFF;
+}
+
+tr.nachricht td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2;
+    vertical-align: top;
+}
+
+tr.nachricht td div {
+    margin-top:10px;
+    margin-left:0px;
+    font-size: 7pt;
+    line-height: 1.5;
+}
+
+.button {
+    background-image: url(../images/thead.jpg);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    border: 0px #760000 solid;
+}
+
+.button2 {
+    background-image: url(../images/button2.png);
+    background-repeat: repeat-x;
+    color: #000000;
+    border: 0px #760000 solid;
+}

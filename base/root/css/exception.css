@@ -1,0 +1,8 @@
+div#exceptionBox {
+    border: 1px solid #656565;
+    border-radius: 7px;
+    color: #656565;
+    font-weight: bold;
+    padding: 5px;
+    width: 800px;
+}

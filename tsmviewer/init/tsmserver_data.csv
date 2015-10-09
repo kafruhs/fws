@@ -1,0 +1,13 @@
+LK;name;dns;port
+1;S080M160;s080m160.de080.corpintra.net;1501
+2;S511M014;s511m014.egefs.corpintra.net;1500
+3;S679M012;s679m012.huefs.corpintra.net;1500
+4;S694M011;s694m011.buefs.corpintra.net;1500
+5;SFSEM161;sfsem161.deefs.corpintra.net;1500
+6;TSMINTW1;s032m161.emea.corpds.net;2100
+7;TSMINTW2;s032m161.emea.corpds.net;2200
+8;TSMINTWL;s032m161.emea.corpds.net;1500
+9;TSMPROW1;s032m160.emea.corpds.net;2100
+10;TSMPROW2;s032m160.emea.corpds.net;2200
+11;TSMPROW3;s032m160.emea.corpds.net;2300
+12;TSMPROWL;s032m160.emea.corpds.net;1500

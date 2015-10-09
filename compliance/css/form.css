@@ -1,0 +1,66 @@
+input {
+    border: 1px solid #676767;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: right;
+}
+
+input:focus {
+    background-color: #dedede
+}
+
+.label {
+    font-weight: bold;
+    color: #121212;
+    vertical-align: top;
+}
+
+.submitButton {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #c5dc2c;
+    background-color: #02369c;
+}
+
+.submitButton:hover {
+    color: #02369c;
+    background-color: #c5dc2c;
+    cursor: pointer;
+}
+
+table.form td.content p{
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #cdcdcd;
+    display: inline-block;
+    height: 16px;
+    padding: 0px 3px 3px 3px;
+    margin: 0px 0px -4px;
+}
+
+.formWidth100 {
+    width: 100px;
+}
+
+.formWidth150 {
+    width: 150px;
+}
+
+.formWidth200 {
+    width: 200px;
+}
+
+.formWidth250 {
+    width: 250px;
+}
+
+table.form td.content {
+    text-align: right;
+}
+
+table.form {
+    background-color: #FFFFFF;
+    border: 1px solid #676767;
+    border-radius: 10px;
+    padding: 15px;
+}

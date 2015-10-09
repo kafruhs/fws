@@ -1,0 +1,17 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass;selectionlistName
+tsmsummary;PK;Primärer Schlüssel;numeric;Y;11;system;100;;;;
+tsmsummary;LK;ID;key;Y;11;system;100;;;;
+tsmsummary;histtop;historischer Stand;alphanumeric;Y;2;system;100;Y;;;
+tsmsummary;editTime;letzte Bearbeitung;datetime;Y;40;everyone;100;;;;
+tsmsummary;editor;letzter Bearbeiter;lk;Y;11;everyone;100;;User;userid;
+tsmsummary;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;everyone;100;;;;
+tsmsummary;firstEditor;Erfasser;lk;Y;11;everyone;100;;User;userid;
+tsmsummary;nodeName;Nodename;alphanumeric;Y;200;everyone;150;;;;
+tsmsummary;subEntity;VMName;alphanumeric;N;200;everyone;150;;;;
+tsmsummary;successful;Erfolgreich;numeric;Y;11;everyone;150;0;;;
+tsmsummary;bytes;Bytes;numeric;N;11;everyone;150;0;;;
+tsmsummary;affected;Betroffen;numeric;N;11;everyone;150;0;;;
+tsmsummary;examined;Geprüft;numeric;N;11;everyone;150;0;;;
+tsmsummary;startTime;Startzeitpunkt;datetime;Y;4;everyone;150;;;;
+tsmsummary;failed;Fehler;numeric;N;11;everyone;150;0;;;
+tsmsummary;FK_tsmserver;TSMServer;lk;Y;11;everyone;150;;TSMServer;name;

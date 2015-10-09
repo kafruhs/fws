@@ -1,0 +1,27 @@
+de;en;name
+test ${test} deutsch;test ${test} english;test
+Der angegebene Wert "${value}" ist keine Zahl;The given value "${value}" is not numeric;base.exception.database.noIntValue
+Die Datenbank-Verbindung konnte nicht hergestellt werden.;A connection to the database can not be established.;base.exception.database.cantConnectToDB
+Es wurde bereits eine Datenbank-Transaktion gestartet;There is already a database transaction open;base.exception.database.transactionAlreadyStarted
+Es wurde noch keine Datenbank-Transaktion gestartet;There is no existing database transaction;base.exception.database.transactionNotActive
+Das Schreiben in der Datenbank wurde aus folgenden Gründen unterbrochen:<br />${errors};The commit call for the database was cancelled for the following reason:<br />${errors};base.exception.database.commitAbortedDueToErrors
+Das Schreiben in die Datenbank war nicht möglich. Überprüfen Sie das SQL-Statement "${statement}";The storing process in the database was not possible. Please check your statement for errors "${statement}";base.exception.database.execFailed
+Die Abfrage konnte nicht durchgeführt werden. Bitte überprüfen Sie das Statement "${statement}";There was an error in the SQL-Statement. Please check "${statement}";base.exception.database.queryFailed
+"${operator}" ist kein valider Operator;"${operator}" is no valid operator;base.exception.database.noValidOperator
+"${encoding}" ist keine unterstützte Codierung.;"${encoding}" is no supported encoding.;base.exception.page.noValidEncoding
+"${language}" wird als Sprache nicht unterstützt.;"${language}" is no supported language;base.exception.language.notSupported
+Entschuldigung, ein Fehler ist aufgetreten;Sorry, an error occured;base.exception.headline
+Die Klasse mit dem Namen "${class}" konnte nicht gefunden werden.;The class with the name "${class}" was not found.;base.exception.autoloader.classNotFound
+Die Spalte mit dem Namen "${colName}" existiert nicht in der Tabelle "${tableName}";The column "${colName}" does not exist in the table "${tableName}";base.exception.database.columnNotExists
+Das Feld "${field}" existiert für die Klasse "${class}" nicht;The field "${field}" does not existr for class "${class}" ;base.exception.fieldinfo.fieldNotExistsForClass
+Es wurde keine Maske im Controller "${controller}" definiert.;There was no Mask defined in Controller "${controller}".;base.exception.controller.noMaskDefined
+Mimis Backstube;Mimis Bakery;base.page.defaultTitle
+Kuchen, Plätzchen, Kekse, und noch vieles mehr...;All that crazy sweets...;base.page.defaultDescription
+Die Display-Klasse "${displayClass}" kann nicht für Objekte der Klasse "${class}" angewendet werden.; The display class "${displayClass} can not be used for objects of class "${class}".;base.exception.displayclass.notSupportedClass
+Es muss als "method" eines Form-Elements "POST" oder "GET" ausgewählt werden.; You have to shoose "POST" or "GET" as method of an form tag.;base.exception.displayclass.noValidMethod
+Es wurde weder Datenbank-Name angegeben noch in der config festgelegt.;You have not defined a db name wether in the script nor in the config.;base.exception.database.dbNameMissed
+Der angegebene Column Type "${colType}" is nicht zulässig.;The given col type "${colType}" is not valid;base.exception.database.noValidColType
+Die anzulegende Tabelle "${tableName}" hat keine definierten Spalten.; The table "${tableName}" has no columns given; base.exception.database.noColsAdded
+Der Parameter "${param}" wurde nicht an die Seite übergeben;The param "${param}" was not transferred to this page;base.exception.site.paramMissing
+Das Feld "${fieldName}" ist ein Pflichtfeld.; The field "${fieldName}" is mandatory.;base.exception.validation.mandatoryFieldEmpty
+Der Verbindung konnte nicht hergestellt werden, da das Object der Klasse "${class}" mit dem LK "${lk}" nicht existiert.; The connection coud not be saved (class "${class}" with LK "${lk}" does not exist.;base.exception.baseConnectionObject.objectNotExists

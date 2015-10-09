@@ -1,0 +1,22 @@
+img.logo {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 100px;
+    float: left;
+    box-shadow: 5px 5px #343434;
+}
+
+img.pictogram {
+    width:      20px;
+    height:     20px;
+    display:    inline;
+}
+
+img.closingButton{
+    margin-left:    25px;
+    padding:        0 0 5px 0;
+    width:          15px;
+    height:         15px;
+    display:        inline;
+}
