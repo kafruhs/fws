@@ -258,6 +258,9 @@ class base_install_Setup
     private function _executeAll(OutputDevice $od, $manager)
     {
         $this->_createFolderStructure($od);
+        $this->_copyPages($od, $manager);
+        $this->_copyCSS($od, $manager);
+        $this->_copyJS($od, $manager);
         $this->_createDB($od);
         $this->_createTables($od, $manager);
         $this->_createTMS($od, $manager);
@@ -265,9 +268,6 @@ class base_install_Setup
         $this->_createAdmin($od, $manager);
         $this->_createBaseObjectData($od, $manager);
         $this->_createConnectionObjects($od, $manager);
-        $this->_copyPages($od, $manager);
-        $this->_copyCSS($od, $manager);
-        $this->_copyJS($od, $manager);
     }
 
 

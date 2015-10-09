@@ -6,7 +6,7 @@
  * Time: 09:27
  */
 if (!file_exists('../../config.php')) {
-    copy('root/config.php', dirname(__DIR__) . '/config.php');
+    copy('root/config.php', dirname(dirname(__DIR__)) . '/config.php');
 }
 
 require_once ('../../config.php');

@@ -142,11 +142,11 @@ class base_install_Manager implements base_interface_Singleton
     {
         $moduleNames = base_infrastructure_Folder::getFilesFromFolder('modules');
         foreach ($moduleNames as $moduleName) {
-            $tmsFile = "modules/$moduleName/init/tms.csv";
-            if (file_exists(ROOT . '/' . $tmsFile)) {
+            $tmsFile = ROOT . '/' . "modules/$moduleName/init/tms.csv";
+            if (file_exists($tmsFile)) {
                 $importer = new base_importer_csv_TMSImporter('tms', $tmsFile, ';');
                 $importer->import();
-                base_install_Message::printOut("----- Text module data created -----", $od);
+                base_install_Message::printOut("----- Text module data from file '{$tmsFile}' created -----", $od);
             }
         }
     }
@@ -246,6 +246,9 @@ class base_install_Manager implements base_interface_Singleton
                     base_install_Message::printOut("----- Die Datei '/modules/$module/root/de/$pageToCopy' wurde erfolgreich kopiert -----", $od);
                 }
             }
+        }
+        if (copy(ROOT . "/modules/base/root/index.php", ROOT . "/index.php")) {
+            base_install_Message::printOut("----- Die Datei '/modules/base/root/index.php' wurde erfolgreich kopiert -----", $od);
         }
     }
 
