@@ -1,0 +1,10 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+navigationCategory;PK;Primärer Schlüssel;numeric;Y;11;system;50;;;
+navigationCategory;LK;ID;numeric;Y;11;system;50;;;
+navigationCategory;histtop;historischer Stand;alphanumeric;Y;2;system;50;Y;;
+navigationCategory;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+navigationCategory;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+navigationCategory;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+navigationCategory;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+navigationCategory;name;Name;alphanumeric;Y;400;everyone;100;;;
+navigationCategory;sort;Sortierung;numeric;Y;5;everyone;100;;;

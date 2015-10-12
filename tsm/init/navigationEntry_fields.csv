@@ -1,0 +1,13 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+navigationEntry;PK;Primärer Schlüssel;numeric;Y;11;system;50;;;
+navigationEntry;LK;ID;numeric;Y;11;system;50;;;
+navigationEntry;histtop;historischer Stand;alphanumeric;Y;2;system;50;Y;;
+navigationEntry;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+navigationEntry;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+navigationEntry;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+navigationEntry;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+navigationEntry;name;Name;alphanumeric;Y;400;everyone;100;;;
+navigationEntry;url;Pfad;alphanumeric;Y;400;everyone;100;;;
+navigationEntry;sort;Sortierung;numeric;Y;5;everyone;100;;;
+navigationEntry;permission;Berechtigung;lk;Y;5;everyone;100;;Permission;name
+navigationEntry;category;Navigationkategorie;lk;Y;5;everyone;100;;navigationCategory;name

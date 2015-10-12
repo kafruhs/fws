@@ -1,0 +1,9 @@
+class;fieldName;fieldLabel;dataType;mandatory;maxLength;displayClass;displayedLength;defaultValue;connectedClass;fieldsOfConnectedClass
+backupType;PK;Primärer Schlüssel;numeric;Y;11;system;50;;;
+backupType;LK;ID;numeric;Y;11;system;50;;;
+backupType;histtop;historischer Stand;alphanumeric;Y;2;system;50;Y;;
+backupType;editTime;letzte Bearbeitung;datetime;Y;40;system;100;;;
+backupType;editor;letzter Bearbeiter;lk;Y;11;system;100;;User;userid
+backupType;firstEditTime;Erfassungszeitpunkt;datetime;Y;40;system;100;;;
+backupType;firstEditor;Erfasser;lk;Y;11;system;100;;User;userid
+backupType;name;Name;alphanumeric;Y;400;everyone;100;;;
